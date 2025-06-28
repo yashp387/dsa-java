@@ -39,4 +39,4 @@ public class selectionSort {
     }
 }
 
-// time-complexity = O(n^2)
+// time-complexity = O(n^2)  -> in all cases
