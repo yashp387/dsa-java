@@ -2,17 +2,14 @@ import java.util.Scanner;
 
 public class prime_number {
     public static boolean primeNumber(int n) {
-        int count = 0;
-        for(int i = 1; i*i <= n; i++) {
+        if(n <= 1) return false;
+        int sqrt = (int) Math.sqrt(n);
+        for(int i = 2; i <= sqrt; i++) {
             if(n % i == 0) {
-                count++;
-                if(i != n/i) {
-                    count++;
-                }
-            }
+               return false;
+            } 
         }
-        if(count == 2) return true;
-        else return false;
+        return true;
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
