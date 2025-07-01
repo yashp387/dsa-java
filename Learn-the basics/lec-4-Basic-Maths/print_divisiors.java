@@ -24,7 +24,7 @@ public class print_divisiors {
         ArrayList<Integer> divisors = printDivisiors(n);
         System.out.println("Divisors of " + n + " are: ");
         for(int divisor: divisors) {
-            System.out.println(divisor + " ");
+            System.out.print(divisor + " ");
         }
         sc.close();
     }
