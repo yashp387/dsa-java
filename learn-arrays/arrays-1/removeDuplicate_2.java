@@ -28,3 +28,7 @@ public class removeDuplicate_2 {
         sc.close();
     }
 }
+
+
+// Time Complexity: O(n);
+// Space Complexity: O(1);
