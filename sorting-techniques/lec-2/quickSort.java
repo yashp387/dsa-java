@@ -63,4 +63,4 @@ public class quickSort {
 }
 
 // time complexity  -> O(nlogn);   - in all cases;
-// space complexity  -> O(1);
+// space complexity  -> O(logn);
