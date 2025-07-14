@@ -27,3 +27,6 @@ public class union1 {
             System.out.print(val+" ") ;
     }
 }
+
+// Time Complexity = O(n + m);
+// Space Complexity = O(n + m);

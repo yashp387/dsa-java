@@ -30,3 +30,6 @@ public class removeDuplicate {
         sc.close();
     }
 }
+
+// Time Complexity -> O(n);
+// Space Complexity	-> O(n);

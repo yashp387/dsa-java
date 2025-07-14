@@ -26,3 +26,6 @@ public class armstrong_number {
         sc.close();
     }
 }
+
+// Time Complexity → O(log n);
+// space complexity -> O(1);

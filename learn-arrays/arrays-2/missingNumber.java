@@ -1,9 +1,9 @@
 public class missingNumber {
     public static void missingNum(int[] arr) {
-        int n = arr.length;
+        int n = arr.length + 1;
         int sum = (n*(n+1)) / 2;
         int s2 = 0;
-        for(int i = 0; i < n ; i++) {
+        for(int i = 0; i < arr.length ; i++) {
             s2 += arr[i];
         }
         int missingNumber = sum - s2;

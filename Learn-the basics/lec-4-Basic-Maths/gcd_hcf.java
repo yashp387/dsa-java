@@ -20,3 +20,6 @@ public class gcd_hcf {
         sc.close();
     }
 }
+
+//  Time Complexity: O(min(n1, n2));
+// Space Complexity: O(1);

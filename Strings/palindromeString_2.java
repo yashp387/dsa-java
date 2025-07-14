@@ -10,6 +10,7 @@ public class palindromeString_2 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a string: ");
         String s = sc.nextLine();
+        s = s.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
         System.out.println(checkPalindrome(0, s));
         sc.close();
     }

@@ -11,6 +11,7 @@ public class count_digit {
     }
 
     public static int countDigits2(int n) {
+        if (n == 0) return 1;
         int count = (int) (Math.log10(n) + 1);
         return count;
     }

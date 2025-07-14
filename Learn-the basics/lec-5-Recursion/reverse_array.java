@@ -33,3 +33,6 @@ public class reverse_array {
         sc.close();
     }
 }
+
+//  Time Complexity = O(n)
+// Space Complexity = O(1) 
